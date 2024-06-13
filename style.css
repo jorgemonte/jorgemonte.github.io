@@ -1,0 +1,284 @@
+style.css
+
+*
+{
+	margin:0;
+	padding: 0;
+}
+
+.header
+{
+	background-image: url(https://images.squarespace-cdn.com/content/v1/625846d91525f202dec1169c/a3243db1-5073-4570-b628-9c3756036b71/LONGFELLOW-20.jpg);
+	background-color: rgba(114, 114, 114, 60%);
+	background-blend-mode: multiply ;
+	background-size:cover;
+	background-position: center ;
+	padding: 150px;
+	color: white;
+}
+
+	.container-one
+	{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+		.container-one h1
+		{
+			font-size: 50px;
+		}
+
+		.container-one p
+		{
+			font-family: raleway;
+			font-size: 14px;
+			font-weight: 100;
+			margin-top: -35px;
+			margin-bottom: 35px;
+		}
+
+		.btn-one
+		{
+			display: inline-block;
+			text-decoration: none;
+			font-size: 14px;
+			color: white;
+			border: 1px solid white;
+			padding: 10px 30px;
+		}
+
+
+.our-story
+{
+	margin-top: 100px;
+}
+
+	.container-two
+	{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.parent-flex
+	{
+		display: flex;
+		gap: 25px;
+	}
+
+	.right
+	{
+		width: 50%;
+		background-image: url(https://culinaria.ca/wp-content/uploads/2023/12/chef-blue-apron-is-cutting-fresh-mushrooms-with-knife-concept-process-cooking-delicious-dish-1200x576.jpg);
+		background-size: cover;
+		background-position: center;
+	}
+
+	.left
+	{
+		width: 50%;
+	}
+
+		.our-story h3
+		{
+			font-family: raleway;
+			font-size: 12px;
+			font-weight: 100;
+			color: gray;
+			margin-bottom: -20px;
+		}
+
+		.our-story h1
+		{
+			font-size: 35px;
+			font-weight: 100;
+			margin-bottom: 10px;
+		}
+
+		.our-story p
+		{
+			font-family: raleway;
+			font-size: 12px;
+			font-weight: 100;
+			color: gray;
+			line-height: 1.5;
+			margin-bottom: 15px;
+		}
+
+		.btn-two
+		{
+			display: inline-block;
+			color: gray;
+			text-decoration: none;
+			font-size: 12px;
+			font-weight: 100;
+			border: 0.5px solid gray;
+			padding: 10px 30px;
+		}
+
+
+.our-offers
+{
+	background: whitesmoke;
+	margin-top: 100px;
+	padding-bottom: 150px;
+}
+
+	.container-three
+	{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-bottom: 35px;
+		padding-top: 20px;
+	}
+
+		.container-three h3
+		{
+			margin-top: 100px;
+			margin-bottom: -20px;
+			font-family: raleway;
+			font-size: 12px;
+			font-weight: 100;
+			color: gray;
+		}
+
+		.container-three h1
+		{
+			font-size: 35px;
+			font-weight: 100;
+			margin-bottom: -10px;
+		}
+
+		.container-three p
+		{
+			font-family: raleway;
+			font-size: 12px;
+			font-weight: 100;
+			color: gray;
+			line-height: 1.5;
+		}
+
+	.container-four
+	{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+		.offers-flex
+		{
+			display: flex;
+			gap: 5px;
+		}
+
+		.card
+		{
+			background: white;
+			padding: 5px;
+			padding-bottom: 25px;
+			width: calc(100% / 3);
+			text-align: center;
+		}
+
+			.card h2
+			{
+				font-size: 14px;
+				color: orange;
+			}
+
+			.card h1
+			{
+				font-size: 18px;
+			}
+
+			.card p
+			{
+				font-family: raleway;
+				font-size: 12px;
+				font-weight: 100;
+				color: gray;
+				line-height: 1.5;
+				margin-bottom: 20px;
+			}
+
+			.btn-three
+			{
+				display: inline-block;
+				text-decoration: none;
+				font-size: 12px;
+				color: white;
+				border: 1px solid white;
+				background-color: orange;
+				padding: 10px 15px;
+			}
+
+.gallery
+{
+	margin-top: 25px;
+	padding-bottom: 100px;
+}
+
+	.container-five
+	{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		margin-bottom: 35px;
+		padding-top: 20px;
+	}
+
+		.container-five h1
+		{
+			font-size: 35px;
+			font-weight: 100;
+			margin-bottom: -10px;
+		}
+
+		.container-five p
+		{
+			font-family: raleway;
+			font-size: 12px;
+			font-weight: 100;
+			color: gray;
+			line-height: 1.5;
+		}
+
+.container-six
+{
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+	.gallery-grid
+	{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 5px;
+		text-align: center;
+	}
+
+	.card-gallery
+	{
+		background-image: url(https://assets.epicurious.com/photos/5dc7263dd482f10008d4fadb/1:1/w_2560%2Cc_limit/HoneyMustardChicken_RECIPE_110519_5882.jpg);
+		background-size: cover;
+		background-position: center;
+		height: 250px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
